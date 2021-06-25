@@ -6,4 +6,11 @@
     <RootNamespace>ssms_db_bot</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Entity\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.SqlServer.SqlManagementObjects" Version="161.46367.54" />
+    <PackageReference Include="Microsoft.SqlServer.Management.SqlParser" Version="160.21099.39" />
+  </ItemGroup>
 </Project>
